@@ -1,0 +1,239 @@
+
+
+
+
+.cover-page{
+  padding-top: 80px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.navbar-brand{
+  font-weight: 500;
+}
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar{
+  background: white;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+.nav-item{
+  padding: 0, 20px;
+}
+.nav-link {
+  color: dimgray;
+  font-weight: 500;
+  position: relative;
+  padding: 0, 20px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: black;
+}
+
+.right-p{
+  padding-right: 0%;
+}
+
+.video-container{
+  background-color: rgb(185, 212, 115, 0.5);
+ 
+}
+@media (min-width: 768px) {
+  .nav-link::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: seagreen;
+      visibility: hidden;
+      transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link.active::before {
+      width: 100%;
+      visibility: visible;
+  }
+
+}
+
+.card-btn{
+  background-color:rgb(185, 212, 115);
+}
+
+@media (min-width: 992) {
+  
+}
+
+.carousel-item img {
+  height: 90vh; /* Viewport height */
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+  width: 100%; /* Ensure the width is always 100% */
+}
+
+@media (max-width: 768px) { /* Targets screens smaller than 576px; adjust as needed */
+  .card-bg-1{
+    background-color:rgb(185, 212, 115);
+  }
+  .card-bg-2{
+    background-color:rgb(185, 212, 115);
+  }
+  
+  .card-bg-3{
+    background-color:rgb(185, 212, 115);
+  }
+  .card-bg-4{
+    background-color:rgb(185, 212, 115);
+  }
+  
+  
+}
+
+.ten h1 {
+  font-size:34px; font-weight:500; text-transform:uppercase;
+}
+.ten h1:before {
+    background-color: seagreen;
+    border-radius: 0.25rem;
+    content: '';
+    display: block;
+    height: 0.25rem;
+    width: 100px;
+    margin-bottom: 1.25rem;
+}
+
+.video-container{
+  align-self: baseline;
+}
+  .card-img-top-container {
+    height: 200px; /* Set a fixed height */
+    overflow: hidden; /* Ensures images larger than the container are clipped */
+  }
+
+  .card-img-top {
+    width: 100%; /* Ensure the width is always 100% of the container */
+    object-fit: cover; /* Cover the container, may result in cropping */
+    height: 100%; /* Ensure the height matches the container, forcing aspect ratio */
+  }
+
+  figcaption{
+    font-size: 0.75rem;
+    color: darkgray;
+
+}
+
+.underlined{
+  text-decoration: underline;
+  text-decoration-color: seagreen;
+  text-underline-offset: 3px;
+}
+
+.callforaction{
+  text-underline-offset: 8px;
+}
+
+.card-btn:hover{
+  background-color:rgb(185, 212, 115,0.6);
+}
+
+
+
+.featured-card:hover{
+transform: translateY(20px);
+}
+
+.card-img-top-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-container:before, .overlay-text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.featured-container:before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( to top, rgb(185, 212, 115, 0.7), rgb(185, 212, 115, 0.4));
+
+}
+
+
+.overlay-text {
+  color: black; /* Or any color you prefer */
+  /* Ensure the text appears above the gradient */
+  z-index: 1; 
+
+}
+
+.card:hover .featured-container::before, .card:hover .overlay-text {
+  opacity: 1; /* Visible on hover */
+}
+
+.info{
+  background-color: rgb(185, 212, 115, 0.8);
+ 
+}
+
+.featured-title{
+  color: black;
+}
+
+.no-decor{
+  text-decoration: none;
+}
+
+
+footer {
+	background: #101010;
+	padding-top: 50;
+  position: relative;
+}
+
+footer .col-lg-1 {
+  position: absolute;
+  padding: none;
+  bottom: 0;
+  right: 0; /* Adjust this value based on your layout, e.g., 20px for some padding from the right */
+}
+
+.bi-arrow-up-circle:hover {
+  color: seagreen;
+}
+
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2;
+}
+
+.single-box ul li a:hover{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="script" href="script.js">
+  <title>Frontend Bootcamp</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto justify-content-center" href="index.html">
+        <h1>Perkins&Will</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link  mx-md-4 active" aria-current="page" href="#">Peter Busby</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-md-4" aria-current="page" href="#">Featured</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-md-4" aria-current="page" href="#">Insights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-md-4" aria-current="page" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-md-4" aria-current="page" href="#">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class=" text-center text-sm-start cover-page">
+    <div class="container-fluid">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/peterbusy/peter_fishing_4col.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/peterbusy/Peter_working_4col.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-sm-block ">
+              <h1>Second slide label</h1>
+              <p class="lead my-4">
+                We focus on teaching our students the fundamentals of the latest
+                and greatest technologies to prepare them for their first dev role
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/peterbusy/Peter-Busby_Visuals-01.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+
+  <!-- Introduction Sections -->
+  <section id="learn" class="my-5">
+    <div class="text-start btn ten">
+      <h1>Introduction</h1>
+    </div>
+    <div class="container-fluid my-5">
+      <div class="row align-items-start justify-content-between"> <!-- Changed to align-items-start -->
+        <div class="col-md">
+          <img src="img/peterbusy/people_busby-peter_01 copy.jpg" class="img-fluid" alt="" />
+          <div class="text-start top-padded">
+            <p><strong>Born:</strong> September 26, 1952.<br><strong>Alma mater:</strong>
+              University of Toronto, University of British Columbia.<br><strong>Awards:</strong> Honorary
+              Doctorate in Science from Ryerson University 2008 RAIC Gold Medal 2014.</p>
+            <a href="#" class="btn mt-3 mb-3 text-start align-items-start ps-0 ">
+              <i class="bi bi-chevron-right"></i> <strong>Say Hello To Peter!</strong>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md text-start"> <!-- Adjusted padding here -->
+          <div class="right-p">
+            <h2>Peter Busby</h2>
+            <h4>C.M., FRAIC, LEED Fellow</h4>
+            <h5>Principal, Vancouver</h5>
+
+            <p>A philosophy major with an arts degree, even as a university student Peter
+              enjoyed
+              critical thinking and discussions of right and wrong. But he didn’t want to just talk about his
+              ideals; he wanted to do something big with them. That same drive and determination to make a
+              positive difference is what shaped Peter’s entire architectural career, as well as his position
+              on
+              protecting the environment.</p>
+
+            <p>Peter sees architecture as the ideal mix of two of his
+              passions:
+              protecting the environment and effecting change. Through his work, he’s been able to influence
+              how
+              people live, the way they treat the environment, and the way cities are formed. In many ways,
+              his
+              passion and track record for making better buildings defined modern-day sustainable
+              architecture—first throughout Canada, then throughout the world. Today, his work continues to
+              inspire new generations of architects and environmental advocates.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- Introduction video Sections -->
+  <section id="video" class="my-5 video-container">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-between">
+        <div class="intro-video">
+          <figure class="text-center">
+            <blockquote class="blockquote my-5">
+              <h2>"Wherever I go in the world to practice architecture, I bring the same attitude. I’m always focused on
+                sustainable design and simplicity." </h2>
+              <figcaption class="blockquote-footer text-end my-5">
+                Peter Busby
+              </figcaption>
+            </blockquote>
+
+          </figure>
+
+
+          <div class="peter-video d-flex justify-content-center">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/jgZecQP-b_k">
+            </iframe>
+          </div>
+
+        </div>
+        <div class="col-md">
+        </div>
+        <div class="col-md">
+          <img src="img/react.svg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Featured Works -->
+  <section class="my-5">
+    <div class="text-start btn ten">
+      <h1>Featured</h1>
+    </div>
+
+    <div class="container-fluid">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="javascript:void(0);" onclick="filterCards('date')">Date</a></li>
+          <li><a class="dropdown-item" href="javascript:void(0);" onclick="filterCards('location')">Location</a></li>
+        </ul>
+      </div>
+
+      <div class="row justify-content-between d-flex align-items-stretch">
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2010" data-location="Atlanta">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/Atlanta studio.jpeg" class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2010</p>
+                    <p><strong>Sustainability:</strong>LEED Platinum</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">Our Atlanta Studio</h5>
+                <p class="card-text">Atlanta, Georgia</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2019" data-location="La Jolla">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/CNT_Exterior-West-Sunset-nosignage-copy-scaled.jpg"
+                  class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2019</p>
+                    <p><strong>Sustainability:</strong>LEED Gold</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">Center for Novel Therapeutics</h5>
+                <p class="card-text">La Jolla, California</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2016" data-location="Vancouver">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/marine gateway.jpeg" class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2016</p>
+                    <p><strong>Sustainability:</strong>LEED Gold Certified</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">Marine Gateway</h5>
+                <p class="card-text">Vancouver, British Columbia</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2027" data-location="Ottawa">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/Summer_hero.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2027</p>
+                    <p><strong>Sustainability:</strong>LEED Gold, CAGBC Zero Carbon Building Standard</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">Dream LeBreton</h5>
+                <p class="card-text">Ottawa, Ontario</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2011" data-location="Vancouver">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/VanDusen_Thumbnail.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2011</p>
+                    <p><strong>Sustainability:</strong>LEED Platinum, Living Building Challenge Petal Certified</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">VanDusen Botanical Garden Centre</h5>
+                <p class="card-text">Vancouver, British Columbia</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-sm-12">
+          <a class="no-decor" href="featured.html">
+            <div class="card my-5 featured-card" data-date="2017" data-location="Palo Alto">
+              <div class="card-img-top-container featured-container">
+                <img src="img/featured/lucile-packard-thumbnail.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="position-absolute d-flex flex-column justify-content-end container-fluid">
+                  <div class="overlay-text p-2">
+                    <p><strong>Year:</strong>2017</p>
+                    <p><strong>Sustainability:</strong>LEED Platinum</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body info">
+                <h5 class="card-text featured-title">Lucile Packard Children’s Hospital</h5>
+                <p class="card-text">Palo Alto, California</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- insights-->
+  <section id="learn" class="my-5">
+    <div class="text-start btn ten">
+      <h1>Design Purpose</h1>
+    </div>
+    <div class="container-fluid my-5">
+      <div class="row align-items-start justify-content-between"> <!-- Changed to align-items-start -->
+        <div class="col-md">
+          <figure>
+            <img src="img/purpose/Purpose-Landing_EP_6c-2.jpg" class="img-fluid" alt="" />
+            <p class="text-start subcap">Historic Emancipation Park</p>
+            <figcaption class="text-start">
+              Houston, Texas
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md text-start"> <!-- Adjusted padding here -->
+          <div class="right-p">
+            <h2 class="">We create places with meaning.</h2>
+
+            <p class="my-5">There’s so much more to architecture than what meets the eye. Every place has a story, and
+              as we design, we help tell it. Our work enlivens neighborhoods, builds communities, energizes the
+              citizenry, and respects and protects our planet.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row align-items-start justify-content-between my-5"> <!-- This row will have elements switched -->
+        <div class="col-md order-md-2"> <!-- Image moved to right on medium screens and up -->
+          <figure>
+            <img src="img/purpose/Skovvillaerne_Final_6.jpg" class="img-fluid" alt="" />
+          </figure>
+        </div>
+
+        <div class="col-md text-start order-md-1"> <!-- Text moved to left on medium screens and up -->
+          <div class="right-p">
+            <h2 class="">Sustainability is a top priority.</h2>
+            <p class="my-5">The most effective designs are those that work symbiotically with the natural environment.
+              They help protect human health and preserve the vitality of Earth’s many ecosystems. They also help
+              conserve the planet’s resources—sometimes even replenishing them.</p>
+            <a href="#" class="btn mt-3 mb-3 text-start align-items-start ps-0 ">
+              <i class="bi bi-chevron-right "></i> <strong class="underlined">How to live a sustainable life?</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row align-items-start justify-content-between my-5"> <!-- Changed to align-items-start -->
+        <div class="col-md">
+          <figure>
+            <img src="img/purpose/carrville.jpg" class="img-fluid" alt="" />
+            <p class="text-start subcap">Carrville Community Centre, Library, and District Park</p>
+            <figcaption class="text-start">
+              The design eliminates high carbon energy sources, such as natural gas, and explores strategies to produce
+              as much renewable energy onsite as possible.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md text-start"> <!-- Adjusted padding here -->
+          <div class="right-p">
+            <h2 class="">Living Design.</h2>
+
+            <p class="my-5">There’s so much more to architecture than what meets the eye. Every place has a story, and
+              as we design, we help tell it. Our work enlivens neighborhoods, builds communities, energizes the
+              citizenry, and respects and protects our planet.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row align-items-start justify-content-between my-5"> <!-- This row will have elements switched -->
+
+        <div class="col-md text-center order-md-1"> <!-- Text moved to left on medium screens and up -->
+          <div class="right-p">
+            <a href="#" class="btn mt-3 mb-3 text-center align-items-center ps-0 ">
+              <h2 class="underlined callforaction">Join us to design a greener future!</h2>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+
+  </section>
+
+  <!-- News -->
+  <section class="my-5">
+    <div class="text-start btn ten">
+      <h1>News About Peter</h1>
+    </div>
+    <div class="container-fluid ">
+      <div class="row justify-content-between">
+
+        <div class="col-md-6 col-lg-3 col-sm-12 order-2 d-flex">
+          <div class="card my-5 btn card-btn flex-fill ">
+            <div class="card-body d-flex flex-column text-start ">
+              <h5 class="card-title">Announcements</h5>
+
+              <p class="card-text">Perkins&Will Celebrates 10 Years as One of Canada’s Greenest Employers</p>
+              <h6 class="card-subtitle mb-2 text-muted mt-auto ">APRIL 18, 2018</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-sm-12 order-3 d-flex">
+          <div class="card my-5 btn card-btn flex-fill">
+            <div class="card-body d-flex flex-column text-start">
+              <h5 class="card-title">Announcements</h5>
+
+              <p class="card-text">New Managing Director of San Francisco Studio Brings Client Perspective, Insights, to
+                Role</p>
+              <h6 class="card-subtitle mb-2 text-muted mt-auto">NOVEMBER 7, 2017</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-sm-12 order-4 d-flex">
+          <div class="card my-5 btn card-btn flex-fill">
+            <div class="card-body d-flex flex-column text-start ">
+              <h5 class="card-title">In the Media</h5>
+
+              <p class="card-text">Perkins&Will Invests in Socially and Environmentally Supportive Workplace Culture</p>
+              <h6 class="card-subtitle mb-2 text-muted mt-auto">APRIL 20, 2017</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-sm-12 order-1 d-flex">
+          <div class="card my-5 btn card-btn flex-fill">
+            <div class="card-body d-flex flex-column text-start">
+              <h5 class="card-title">Press Release</h5>
+
+              <p class="card-text">USGBC Headquarters Becomes First-Ever Project to Earn Three Platinum Certifications:
+                LEED ID+C, WELL, and TRUE</p>
+              <h6 class="card-subtitle mb-2 text-muted mt-auto">OCTOBER 25, 2023</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="container-fluid text-light">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 ">
+          <div class="single-box my-5 text-light">
+
+            <h1>Perkins&Will</h1>
+            <p class="figcaption">Since 1935, we’ve believed that design has the power to make the world a better, more
+              beautiful place. That’s why clients and community members on nearly every continent partner with us to
+              design healthy, happy places in which to live, learn, work, play, and heal.</p>
+            <p class="figcaption">Copyright &copy; 2024 Perkins&Will</p>
+
+            <div class="card-area">
+              <i class="fa fa-cc-visa"></i>
+              <i class="fa fa-credit-card"></i>
+              <i class="fa fa-cc-mastercard"></i>
+              <i class="fa fa-cc-paypal"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-5">
+          <div class="single-box my-5">
+            <h4>Peter Busby</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Featured Works</a></li>
+              <li><a href="#">Design Purpose</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-5">
+          <div class="single-box my-5">
+            <h4>Perkins&Will</h4>
+            <ul>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Studios</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-1 col-sm-1">
+          <a href="#" class="text-light">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
